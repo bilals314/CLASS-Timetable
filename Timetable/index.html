@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BSCS-IV-C (Shift-I) Timetable</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 32px;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            
+        }
+
+        th,
+        td {
+            border: 1px solid #bdc3c7;
+            padding: 10px 5px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 13px;
+            word-wrap: break-word;
+        }
+
+        th {
+            background: #2c3e50;
+            color: white;
+            height: 50px;
+            font-weight: 600;
+        }
+
+        .day {
+            font-size: 18px;
+            font-weight: bold;
+            background: #ecf0f1;
+            color: #2c3e50;
+            width: 60px;
+        }
+
+        
+        .subject-info {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .room-info {
+            color: #e67e22;
+            font-weight: bold;
+        }
+
+        tr:hover {
+            background-color: #fcfcfc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>BSCS-IV-C (Shift-I)</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>07:45-08:25</th>
+                    <th>08:25-09:05</th>
+                    <th>09:05-09:45</th>
+                    <th>09:45-10:25</th>
+                    <th>10:25-11:05</th>
+                    <th>11:05-11:45</th>
+                    <th>11:45-12:25</th>
+                    <th>12:25-01:05</th>
+                    <th>01:05-01:45</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="day">Mo</td>
+                    <td></td>
+                    <td>HUM-MS Saman Noor<br><b>Civics & Engagement</b><br><span class="room-info">C-201</span></td>
+                    <td>CS-Dr Maryum Nisar<br><b>Software Engineering</b><br><span class="room-info">C-301</span></td>
+                    <td>CS-Ms Romana Maroof<br><b>COAL</b><br><span class="room-info">C-302</span></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td class="day">Tu</td>
+                    <td>HUM-MS Saman Noor<br><b>Civics & Engagement</b><br><span class="room-info">C-303</span></td>
+                    <td></td>
+                    <td>CS-Ms Sara Mishal<br><b>Computer Networks</b><br><span class="room-info">C-303</span></td>
+                    <td></td>
+                    <td>CS-Mr Hafiz Obaid<br><b>Visual Programming</b><br><span class="room-info">C-304</span></td>
+                    <td></td>
+                    <td colspan="3">CS-Mr Hafiz Obaid<br><b>Visual Programming Lab</b><br><span class="room-info">Lab 12
+                            C Block (2nd Floor)</span></td>
+                </tr>
+
+                <tr>
+                    <td class="day">We</td>
+                    <td></td>
+                    <td>Maths-Sumaira Nadeem<br><b>Multivariable Calculus</b><br><span class="room-info">C-305</span>
+                    </td>
+                    <td>CS-Dr Maryum Nisar<br><b>Software Engineering</b><br><span class="room-info">C-304</span></td>
+                    <td>CS-Mr Hafiz Obaid<br><b>Visual Programming</b><br><span class="room-info">C-206</span></td>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3">CS-Mr Muhammad Bilal<br><b>Computer Networks Lab</b><br><span class="room-info">Lab
+                            12 C Block (2nd Floor)</span></td>
+                </tr>
+
+                <tr>
+                    <td class="day">Th</td>
+                    <td></td>
+                    <td>Maths-Sumaira Nadeem<br><b>Multivariable Calculus</b><br><span class="room-info">C-301</span>
+                    </td>
+                    <td>CS-Mr Muhammad Bilal<br><b>Advisory Class</b><br><span class="room-info">C-301</span></td>
+                    <td>CS-Ms Romana Maroof<br><b>COAL</b><br><span class="room-info">C-205</span></td>
+                    <td>CS-Dr Maryum Nisar<br><b>Software Engineering</b><br><span class="room-info">C-306</span></td>
+                    <td></td>
+                    <td colspan="3">CS-Ms Romana Maroof<br><b>COAL Lab</b><br><span class="room-info">Lab 12 C Block
+                            (2nd Floor)</span></td>
+                </tr>
+
+                <tr>
+                    <td class="day">Fr</td>
+                    <td></td>
+                    <td></td>
+                    <td>Maths-Sumaira Nadeem<br><b>Multivariable Calculus</b><br><span class="room-info">C-202</span>
+                    </td>
+                    <td></td>
+                    <td>CS-Ms Sara Mishal<br><b>Computer Networks</b><br><span class="room-info">C-206</span></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
